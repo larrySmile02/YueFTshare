@@ -27,7 +27,7 @@ keytool -exportcert -alias <RELEASE_KEY_ALIAS> -keystore <RELEASE_KEY_PATH> | op
 KC7XXXXXCouE71R0sXEPpH+EQ/Y=
 ```
 然后添加key hash 至“开发者设置”
-<img src="https://github.com/larrySmile02/YueFTshare/blob/master/app/images/develop.png">
+<img src="https://github.com/larrySmile02/YueFTshare/blob/master/app/images/hash.png">
 
 别忘了保存。
 
