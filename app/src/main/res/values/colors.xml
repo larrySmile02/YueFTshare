@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="tzc_share_bg">#ff2dc296</color>
+    <color name="tzc_white">#ffffff</color>
+    <color name="tzc_black">#000000</color>
+</resources>

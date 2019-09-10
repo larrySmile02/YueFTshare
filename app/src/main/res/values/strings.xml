@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YueFTshare</string>
+    <string name="tzc_score_total">身体得分</string>
+    <string name="tzc_standard_style">标准型</string>
+    <string name="tzc_weigh">体重</string>
+    <string name="tzc_save_suc">Image save successfully!</string>
+    <string name="tzc_share">Share</string>
+    <string name="tzc_facebook">facebook</string>
+    <string name="tzc_twitter">twitter</string>
+    <string name="cancel">Cancel</string>
+    <string name="tzc_share_suc">Share Successfully!</string>
+    <string name="tzc_share_fail">Share Fail!</string>
+    <!--tzc.jks对应-->
+    <string name="facebook_app_id">538061523610354</string>
+</resources>

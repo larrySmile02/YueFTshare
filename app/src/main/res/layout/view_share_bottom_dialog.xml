@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#9B9B9B "
+        android:layout_width="match_parent"
+        android:layout_height="226dp">
+
+        <TextView
+            android:id="@+id/tv_share"
+            android:background="@color/tzc_white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#9B9B9B"
+            android:text="@string/tzc_share"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <View
+            android:background="#EEEEEE"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:background="@color/tzc_white"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="124dp">
+
+            <LinearLayout
+                android:id="@+id/llt_facebook"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/tzc_fb_logo_round"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#626262"
+                    android:textSize="11dp"
+                    android:text="@string/tzc_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llt_twitter"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/tzc_twitter_round"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#626262"
+                    android:textSize="11dp"
+                    android:text="@string/tzc_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"/>
+
+        <TextView
+            android:id="@+id/tv_cancel_share"
+            android:background="@color/tzc_white"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+</LinearLayout>

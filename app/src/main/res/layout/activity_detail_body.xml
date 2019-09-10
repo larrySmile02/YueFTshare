@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rlt_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_marginBottom="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#2DC296"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <View
+            android:id="@+id/line_center"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/tv_save"
+            android:text="Save"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/line_center"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_share"
+            android:text="Share"
+            android:layout_alignParentRight="true"
+            android:layout_alignLeft="@+id/line_center"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
