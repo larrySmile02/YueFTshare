@@ -25,6 +25,7 @@
 
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 
+        //FacebookContentProvider后的数字替换成自己的facebook_app_id
         <provider android:authorities="com.facebook.app.FacebookContentProvider538061523610354"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true" />
