@@ -9,7 +9,7 @@ share to facebook and twitter
 
 ### Facebook 前置工作
 1. 申请一个Facebook开发者账号，创建一个应用，如下图：
-
+<img src="https://github.com/larrySmile02/YueFTshare/blob/master/app/images/develop.png">
 
 图中的“应用编号”就是Facebook key
 
@@ -27,7 +27,7 @@ keytool -exportcert -alias <RELEASE_KEY_ALIAS> -keystore <RELEASE_KEY_PATH> | op
 KC7XXXXXCouE71R0sXEPpH+EQ/Y=
 ```
 然后添加key hash 至“开发者设置”
-![image](http://note.youdao.com/yws/res/19158/1248896AF3624999B3E9FE5DA2FF53F4)
+<img src="https://github.com/larrySmile02/YueFTshare/blob/master/app/images/develop.png">
 
 别忘了保存。
 
